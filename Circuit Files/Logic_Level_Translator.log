@@ -1,0 +1,31 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\Mohammad Amash\Documents\LTspice\Logic_Level_Translator.net
+Start Time: Thu Jun 19 18:00:41 2025
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+C:\Users\Mohammad Amash\Documents\LTspice\Logic_Level_Translator.net(5): Limiting rise time to 5e-05.
+
+V3 3.3Vin 0 PULSE(0 3.3V 0 0 0 0.5m 1m)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Mohammad Amash\Documents\LTspice\Logic_Level_Translator.net(5): Limiting fall time to 5e-05.
+
+V3 3.3Vin 0 PULSE(0 3.3V 0 0 0 0.5m 1m)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Mohammad Amash\Documents\LTspice\Logic_Level_Translator.net(13): Limiting rise time to 5e-05.
+
+V4 5Vin 0 PULSE(0 5V 0 0 0 0.5m 1m)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Mohammad Amash\Documents\LTspice\Logic_Level_Translator.net(13): Limiting fall time to 5e-05.
+
+V4 5Vin 0 PULSE(0 5V 0 0 0 0.5m 1m)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.130 seconds.
+
+Files loaded:
+C:\Users\Mohammad Amash\Documents\LTspice\Logic_Level_Translator.net
+C:\Users\Mohammad Amash\AppData\Local\LTspice\lib\cmp\standard.mos
+
